@@ -13,10 +13,9 @@ public class SumOfManyNumbers {
             if (read == 0) {
                 break;
             }
-
             // do something here
-
             System.out.println("Sum now: " + sum);
+            sum = sum + read;
         }
         
         System.out.println("Sum in the end: " + sum);
